@@ -15,7 +15,7 @@
 
 <?php 
 
-$numeroAleatorio = $_GET["DigiteUmNumero"] ?? "O numero não foi digitado ou foi enviado nulo";
+$numeroAleatorio = $_GET['DigiteUmNumero'] ?? "O numero não foi digitado ou foi enviado nulo";
 $sucessor = $numeroAleatorio + 1;
 $antecessor = $numeroAleatorio - 1;
 

@@ -15,8 +15,8 @@
 <main>
     <section>
         <form action="numeroAleatorio.php" method="get">
-            <label for="DigiteUmNumero">Digite um  numero para sortear</label>
-            <input type="number" name="DigiteUmNumero" id="idDigiteUmNumero">
+            <label for="digiteUmNumero">Digite um  numero para sortear</label>
+            <input type="number" name="digiteUmNumero" id="idDigiteUmNumero">
 
             <input type="submit" value="Enviar">
         </form>

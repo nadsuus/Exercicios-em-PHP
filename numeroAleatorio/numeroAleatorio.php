@@ -14,11 +14,9 @@
 <main>
 
 <?php 
-
-$numeroAleatorio = $_GET["DigiteUmNumero"] ?? "O numero não foi digitado ou foi enviado nulo";
+$numeroAleatorio = $_GET['digiteUmNumero'] ?? "O numero não foi digitado ou foi enviado nulo";
 $min = 1;
 $numeroSorteado = rand($min, $numeroAleatorio);
-
 echo "O numero sorteado foi: $numeroSorteado\n";
 
 ?>
